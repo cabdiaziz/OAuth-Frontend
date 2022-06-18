@@ -1,0 +1,2 @@
+[ ] install npm normalize css
+[ ] copy the css file from index.css in jobify project from course project directory in udemy.
