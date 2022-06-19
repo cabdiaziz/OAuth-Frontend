@@ -1,2 +1,8 @@
-[ ] install npm normalize css
-[ ] copy the css file from index.css in jobify project from course project directory in udemy.
+[x] install npm normalize css
+[x] copy the css file from index.css in job_ify project from course project directory in udemy.
+[x] watch landing page video
+[ ] practice landing page video with advanced features like :-)
+    -slider ?!
+    -pictures
+    -Home, About, Contact (Navbar).
+[] learn npm styled-components in youtube and then back into this course.
