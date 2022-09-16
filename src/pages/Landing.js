@@ -1,33 +1,29 @@
-import React from 'react';
-import logo from '../images/logo.png';
+import React from "react";
+import Wrapper from "../wrappers/Landing";
+import Logo from "./components/Logo";
 const Landing = () => {
   return (
-    <div>
+    <Wrapper>
       <nav>
-        <img
-          src={logo}
-          alt="solutions"
-          className="logo"
-          width="250"
-          height="60"
-        />
+        <Logo />
       </nav>
       <div className="container page">
-        <div className="info"></div>
-        <h1>
-          Computer <span>solutions</span> company
-        </h1>
-        <p>
-          I'm baby yes plz ramps artisan godard literally, gentrify cloud bread
-          narwhal listicle. Hexagon wolf cornhole godard palo santo crucifix
-          DIY. Poke tumeric tattooed, lumbersexual hell of meh banjo fam ramps
-          cardigan lo-fi freegan. Viral deep v scenester man braid shoreditch
-          vice pinterest salvia waistcoat VHS disrupt chillwave bicycle rights
-          tilde.
-        </p>
-        <button className="btn btn-hero">Login/Register</button>
+        <div className="info">
+          <h1>
+            Computer <span>solutions</span> company
+          </h1>
+          <p>
+            I'm baby yes plz ramps artisan godard literally, gentrify cloud
+            bread narwhal listicle. Hexagon wolf cornhole godard palo santo
+            crucifix DIY. Poke tumeric tattooed, lumbersexual hell of meh banjo
+            fam ramps cardigan lo-fi freegan. Viral deep v scenester man braid
+            shoreditch vice pinterest salvia waistcoat VHS disrupt chillwave
+            bicycle rights tilde.
+          </p>
+          <button className="btn btn-hero">Login/Register</button>
+        </div>
       </div>
-    </div>
+    </Wrapper>
   );
 };
 
