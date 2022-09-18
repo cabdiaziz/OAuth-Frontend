@@ -1,8 +1,15 @@
 [x] install npm normalize css
 [x] copy the css file from index.css in job_ify project from course project directory in udemy.
 [x] watch landing page video
-[ ] practice landing page video with advanced features like :-)
-    -slider ?!
-    -pictures
-    -Home, About, Contact (Navbar).
-[] learn npm styled-components in youtube and then back into this course.
+[x] learn npm styled-components in youtube and then back into this course.
+[] import a dashboard from material ui dashboard for free.
+
+[x] redux toolkit slice and thunk functionality compelete
+[x] initialize firebase installing in frontend
+[x] compelete firebase-9 auth in frontend
+
+[] initialize firebase installing in backend
+[] write a login api in the backend
+[] design a sign up api in the backend
+
+[] axios request testing is '200' ok

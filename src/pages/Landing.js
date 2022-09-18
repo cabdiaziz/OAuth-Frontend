@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "../wrappers/Landing";
 import Logo from "./components/Logo";
+import { Link } from "react-router-dom";
 const Landing = () => {
   return (
     <Wrapper>
@@ -20,7 +21,9 @@ const Landing = () => {
             shoreditch vice pinterest salvia waistcoat VHS disrupt chillwave
             bicycle rights tilde.
           </p>
-          <button className="btn btn-hero">Login/Register</button>
+          <Link to="/login" className="btn btn-hero">
+            Login/Register
+          </Link>
         </div>
       </div>
     </Wrapper>

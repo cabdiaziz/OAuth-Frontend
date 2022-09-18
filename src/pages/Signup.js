@@ -4,13 +4,14 @@ import { Container, Box, TextField, Button, Grid } from "@mui/material";
 import GoogleIcon from "@mui/icons-material/Google";
 import { Link } from "react-router-dom";
 import { loginFirebase } from "../firebase/firebase_login";
-const Login = () => {
+
+const Signup = () => {
   return (
     <div>
       <Container maxWidth="sm" align="center">
         <form className="form">
           <Logo />
-          <h3>Login</h3>
+          <h3>Sign Up</h3>
           <Box component="form" sx={{ mt: 1 }}>
             <TextField
               margin="normal"
@@ -39,7 +40,7 @@ const Login = () => {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Sign In
+              Sign Up
             </Button>
             <Button
               size="large"
@@ -51,13 +52,13 @@ const Login = () => {
                 loginFirebase();
               }}
             >
-              Login With Google
+              Signup With Google
             </Button>
 
             <Grid container>
               <Grid item>
-                <Link to="/signup" variant="body2">
-                  {"Don't have an account? Sign Up"}
+                <Link to="/login" variant="body2">
+                  I already have an account! Login
                 </Link>
               </Grid>
             </Grid>
@@ -68,4 +69,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signup;
