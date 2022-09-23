@@ -2,14 +2,14 @@
 [x] copy the css file from index.css in job_ify project from course project directory in udemy.
 [x] watch landing page video
 [x] learn npm styled-components in youtube and then back into this course.
-[] import a dashboard from material ui dashboard for free.
+[ ] import a dashboard from material ui dashboard
 
 [x] redux toolkit slice and thunk functionality compelete
 [x] initialize firebase installing in frontend
 [x] compelete firebase-9 auth in frontend
 
-[] initialize firebase installing in backend
-[] write a login api in the backend
-[] design a sign up api in the backend
+[x] initialize firebase installing in backend
+[x] write a login api in the backend
+[x] design a sign up api in the backend
 
-[] axios request testing is '200' ok
+[x] axios request testing is '200' ok

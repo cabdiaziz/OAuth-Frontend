@@ -5,8 +5,6 @@ import { createUser } from "../thunk/userThunk";
 
 const initialState = {
   isLoading: false,
-  isAuthenticated: false,
-  token: null,
   user: {},
   error: null,
 };
@@ -20,14 +18,10 @@ const userSlice = createSlice({
     },
     [createUser.fulfilled]: (state, { payload }) => {
       state.isLoading = false;
-      state.isAuthenticated = true;
-      state.token = payload.data.authorization;
-      state.user = payload.data.user;
+      state.user = payload.data;
     },
     [createUser.rejected]: (state, { payload }) => {
       state.isLoading = false;
-      state.isAuthenticated = false;
-      state.token = null;
       state.user = initialState.user; //* equal to  null value.
       state.error = payload.error.message;
     },
