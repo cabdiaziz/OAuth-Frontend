@@ -2,7 +2,7 @@
 [x] copy the css file from index.css in job_ify project from course project directory in udemy.
 [x] watch landing page video
 [x] learn npm styled-components in youtube and then back into this course.
-[ ] import a dashboard from material ui dashboard
+[ ] Design a dashboard
 
 [x] redux toolkit slice and thunk functionality compelete
 [x] initialize firebase installing in frontend
